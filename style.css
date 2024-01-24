@@ -1,0 +1,111 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #F2F5F9;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px 10px 0px 10px;
+}
+p {
+    font-family: "Lato";
+    font-size: 16px;
+    color: #111729;
+    margin: 0%;
+    line-height: 25px;
+}
+
+.p-secondary {
+    font-family: "Lato";
+    font-size: 16px;
+    color: #677489;
+    margin: 0%;
+    line-height: 25px;
+}
+
+h1 {
+    font-family: "poppins";
+    font-weight: bold;
+    color: #111729;
+    font-size: 24px;
+    margin: 0%;
+    line-height: 35px;
+}
+
+.p-small {
+    font-family: "Lato";
+    font-size: 12px;
+    color: #677489;
+    margin: 0%;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+h2 {
+    font-family: "Lato";
+    font-weight: bold;
+    color: #111729;
+    font-size: 16px;
+    margin: 0%;
+    line-height: 25px;
+}
+
+.card {
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+
+#hero-image {
+    width: 100%;
+}
+
+#overlay {
+    position: absolute;
+    width: 100%;
+    top: 76%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px 30px 30px;
+    gap: 16px;
+
+}
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 15px;
+    border-top: solid 1px #F2F5F9;
+}
+
+.avatar-image {
+    border-radius: 100% ;
+    border: solid #F2F5F9 4px;
+    width: 37px;
+    height: 37px;
+}
+
+.profil-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
